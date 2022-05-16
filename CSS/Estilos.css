@@ -1,0 +1,129 @@
+/* -------------------------------------------------------------------------- */
+/* >>>>>>>>>> GENERAL <<<<<<<<<<*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/* >>>>>>> BLOQUE DE ARRIBA <<<<<<<<*/
+.bloque-inicial{
+    background-color: #006691;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+
+    padding: 15px 0px;
+    text-align: center;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/* >>>>>>> MENU <<<<<<<< */
+/* ENLACES */
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+
+    padding: 15px 20px;
+}
+
+/* ELEMENTOS DE LISTA */
+li{
+    display: inline-block;
+}
+
+/* MENU CONTENEDOR */
+.nave{
+    background-color: #2499c7;
+    color: aqua;
+    text-align: right;
+}
+
+.menu li a:hover{
+    background-color: #006691;
+}
+
+.menu li a:active{
+    color: black;
+}
+
+/* -------------------------------------------------------------------------- */
+/* >>>>>>>> MAIN <<<<<<<<<<*/
+main{
+    place-content: center center;
+}
+
+/* CUERPO */
+body{
+    background-color: #94e7ff;
+}
+
+/* -------------------------------------------------------------------------- */
+/* #SOBRE MEXICO */
+/* Caja */
+.sobre_mex{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+.sobre_mex > p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.t-sobre_mex{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+}
+/* -------------------------------------------------------------------------- */
+/* HEADER */
+header{
+    box-shadow: 1px 1px 10px black;
+}
+
+
+
+/* ************************************************************** */
+/* >>>>>>>> MAPA INTERACTIVO <<<<<<<<<<<*/
+
+.t_mapa-inte{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+    font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+}
+
+.mapa-inte{
+    margin: auto;
+    border: solid 3px #40cfff;
+    width: 80%;
+    box-shadow: 1px 1px 10px black;
+}
+
+/* MAPA CAJA */
+.mapa{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+/* MAPA ELEMENTOS DE ESTADOS */
+.mapa path{
+    fill: white;
+    stroke: blue;
+    stroke-width: 2px;
+}
+/* MAPA ELEMENTOS DE ESTADO (EFECTOS) :HOVER */
+.mapa :hover{
+    fill: black;
+    cursor: pointer;
+}
+/* ************************************************************** */
