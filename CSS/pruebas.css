@@ -1,0 +1,36 @@
+/* TITULO -PUEBLOS MAGICOS- */
+
+.pueblos-magicos{
+    width: 77%;
+    margin: auto;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.t-pueblos-magicos{
+    text-align: center;
+}
+
+.cajas{
+    width: 300px;
+    margin: 0px 20px;
+    overflow: hidden;
+    float: left;
+}
+
+.parrafos-cajas{
+    text-align: righ;
+}
+
+.img-p{
+    width: 280px;
+    margin: auto;
+}
+
+
+
+.img-p > img{
+    width: 280px;
+    height: 180px;
+    border-radius: 10px;
+}
