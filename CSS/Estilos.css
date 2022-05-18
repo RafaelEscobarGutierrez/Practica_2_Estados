@@ -239,22 +239,25 @@ header{
     border-radius: 10px;
 }
 
+/* CONTROLES DE SLIDER */
 .control{
     margin: 50px;
 }
 
+/* ENLACES ESPECIFICACIONES DE DISEÑO */
 .contenedor-s ul a{
     text-decoration: none;
     color: black;
     font-size: 30px;
 }
 
+/* ENLACES EFECTO :HOVER */
 .contenedor-s ul a:hover{
     font-weight: bold;
     transition: all .4s;
 }
 
-
+/* CONTENEDOR -SLIDER- (ETIQUETA UL) */
 ul.slider{
     position: relative;
     width: 800px;
@@ -262,6 +265,7 @@ ul.slider{
     margin: auto;
 }
 
+/* ETIQUETA LI ESPECIFICACIONES DE POSICIÓN */
 ul.slider li{
     position: absolute;
     left: 0;
@@ -272,6 +276,7 @@ ul.slider li{
     transition: opacity .5s;
 }
 
+/* IMAGENES ESPECIFICACIONES DE TAMAÑO Y PROPIEDAD OBJECT */
 ul.slider li img{
     width: 100%;
     height: 500px;
@@ -279,10 +284,12 @@ ul.slider li img{
     
 }
 
+/* EFECTO PARA SLIDER (VISIBILIDAD DE LA OTRA IMAGEN) */
 ul.slider li:first-child{
     opacity: 1;
 }
 
+/* EFECTO PARA SLIDER (CAMBIO A OTRA IMAGEN)*/
 ul.slider li:target{
     opacity: 1;
 }
